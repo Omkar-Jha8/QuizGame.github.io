@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body {
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+
+.outer-div {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.inner-div {
+    background-color: white;
+    width: 60vh;
+    height: 40vh;
+    border-radius: .1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+    text-align: center;
+    box-shadow: 0 2rem 2rem -.2rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+#btn {
+    display: inline;
+    background: #f953c6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b91d73, #f953c6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    outline: none;
+    border: none;
+    width: 60vh;
+    height: 50px;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.points {
+    background-color: grey;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 1rem;
+    display: none;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.head {
+    background-color: grey;
+    margin-bottom: -2rem;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 110px 10px;
+    width: 60vh;
+    height: 80vh;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+@media (max-width:740px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Urbanist', sans-serif;
+    }
+    body {
+        background: #12c2e9;
+        background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+        background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    }
+    .outer-div {
+        display: grid;
+        place-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+    .inner-div {
+        background-color: white;
+        width: 45vh;
+        height: 40vh;
+        border-radius: .1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.3rem;
+        text-align: center;
+        box-shadow: 0 2rem 2rem -.2rem rgba(0, 0, 0, 0.4);
+        overflow: hidden;
+        margin-left: .3rem;
+        margin-top: -10rem;
+    }
+    #btn {
+        display: inline;
+        background: #f953c6;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #b91d73, #f953c6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        outline: none;
+        border: none;
+        width: 45vh;
+        height: 50px;
+        cursor: pointer;
+        font-size: 1.7rem;
+        margin-left: .3rem;
+    }
+    .points {
+        background-color: grey;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 10px;
+        margin-top: 1rem;
+        display: none;
+    }
+    .btn {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 10px;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    .head {
+        background-color: grey;
+        margin-bottom: -2rem;
+        font-size: 1.5rem;
+        display: inline-block;
+        padding: 110px 10px;
+        width: 60vh;
+        height: 80vh;
+        margin-left: -3.5rem;
+        margin-top: 3rem;
+    }
+    .btn:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+}
+
+@media (max-width:960px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Urbanist', sans-serif;
+    }
+    body {
+        background: #12c2e9;
+        background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+        background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    }
+    .outer-div {
+        display: grid;
+        place-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+    .inner-div {
+        background-color: white;
+        width: 45vh;
+        height: 40vh;
+        border-radius: .1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.3rem;
+        text-align: center;
+        box-shadow: 0 2rem 2rem -.2rem rgba(0, 0, 0, 0.4);
+        overflow: hidden;
+        margin-left: .3rem;
+        margin-top: -10rem;
+    }
+    #btn {
+        display: inline;
+        background: #f953c6;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #b91d73, #f953c6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        outline: none;
+        border: none;
+        width: 45vh;
+        height: 50px;
+        cursor: pointer;
+        font-size: 1.7rem;
+        margin-left: .3rem;
+    }
+    .points {
+        background-color: grey;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 10px;
+        margin-top: 1rem;
+        display: none;
+    }
+    .btn {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 10px;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    .head {
+        background-color: grey;
+        margin-bottom: -2rem;
+        font-size: 1.5rem;
+        display: inline-block;
+        padding: 110px 10px;
+        width: 60vh;
+        height: 90vh;
+        margin-left: -4rem;
+        margin-top: 15rem;
+    }
+    .btn:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+}
+
+@media (max-width:812px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Urbanist', sans-serif;
+    }
+    body {
+        background: #12c2e9;
+        background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+        background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    }
+    .outer-div {
+        display: grid;
+        place-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+    .inner-div {
+        background-color: white;
+        width: 45vh;
+        height: 40vh;
+        border-radius: .1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.3rem;
+        text-align: center;
+        box-shadow: 0 2rem 2rem -.2rem rgba(0, 0, 0, 0.4);
+        overflow: hidden;
+        margin-left: .15rem;
+        margin-top: -10rem;
+    }
+    #btn {
+        display: inline;
+        background: #f953c6;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #b91d73, #f953c6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        outline: none;
+        border: none;
+        width: 45vh;
+        height: 50px;
+        cursor: pointer;
+        font-size: 1.7rem;
+        margin-left: .3rem;
+    }
+    .points {
+        background-color: grey;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 10px;
+        margin-top: 1rem;
+        display: none;
+    }
+    .btn {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 10px;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    .head {
+        background-color: grey;
+        margin-bottom: -2rem;
+        font-size: 1.5rem;
+        display: inline-block;
+        padding: 110px 10px;
+        width: 60vh;
+        height: 80vh;
+        margin-left: -3.5rem;
+        margin-top: 3rem;
+    }
+    .btn:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+}
